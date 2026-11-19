@@ -1,0 +1,14 @@
+[
+  {"_id": {"$oid": "6740c0000000000000000001"}, "name": "Biscuit", "species": "dog", "age": 3, "traits": ["good with kids", "house-trained"], "status": "available"},
+  {"_id": {"$oid": "6740c0000000000000000002"}, "name": "Mochi", "species": "cat", "age": 2, "traits": ["calm", "indoor only"], "status": "available"},
+  {"_id": {"$oid": "6740c0000000000000000003"}, "name": "Pepper", "species": "dog", "age": 7, "traits": ["calm", "good with cats"], "status": "available"},
+  {"_id": {"$oid": "6740c0000000000000000004"}, "name": "Clover", "species": "rabbit", "age": 1, "traits": ["shy"], "status": "available"},
+  {"_id": {"$oid": "6740c0000000000000000005"}, "name": "Juniper", "species": "cat", "age": 5, "traits": ["good with kids", "playful"], "status": "adopted"},
+  {"_id": {"$oid": "6740c0000000000000000006"}, "name": "Rocket", "species": "dog", "age": 1, "traits": ["playful", "needs a yard"], "status": "available"},
+  {"_id": {"$oid": "6740c0000000000000000007"}, "name": "Olive", "species": "cat", "age": 9, "traits": ["calm", "good with kids"], "status": "available"},
+  {"_id": {"$oid": "6740c0000000000000000008"}, "name": "Hazel", "species": "rabbit", "age": 3, "traits": ["calm", "good with kids"], "status": "available"},
+  {"_id": {"$oid": "6740c0000000000000000009"}, "name": "Pickles", "species": "cat", "age": 1, "traits": ["playful", "good with kids"], "status": "adopted"},
+  {"_id": {"$oid": "6740c0000000000000000010"}, "name": "Maple", "species": "dog", "age": 10, "traits": ["calm", "good with kids", "house-trained"], "status": "available"},
+  {"_id": {"$oid": "6740c0000000000000000011"}, "name": "Ziggy", "species": "cat", "age": 4, "traits": ["playful"], "status": "available"},
+  {"_id": {"$oid": "6740c0000000000000000012"}, "name": "Bean", "species": "dog", "age": 2, "traits": ["good with kids", "needs a yard"], "status": "available"}
+]
