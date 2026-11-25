@@ -12,7 +12,7 @@ The Maple Street Pet Adoption Center's API kept its pets in an array, so every r
 - `problems.js`: `sendProblem`, which sends every error in one shape, `{ status, title, detail }`. Ready to use.
 - `server.js`: connects to your MongoDB once, builds the app with your `maple_street` database, creates the indexes, and starts the API at `http://localhost:3100`. Ready to use.
 - `.env.example`: the connection string `npm start` uses, to copy to `.env`. Ready to use.
-- `pets.http`: the requests to try, for VS Code's REST Client extension. Ready to use.
+- `pets.insomnia.json`: the requests to try, as an Insomnia collection. Ready to use.
 - `test/pets.test.js`: the tests. Tests 1 to 3 call the data layer's functions, and tests 4 to 17 send requests to `createApp` with Supertest. You don't need to change this file.
 - `test/test-database.js`: starts the throwaway MongoDB the tests use, and puts the 12 pets back before every test. You don't need to change it: the lesson *Testing the Data Layer with mongodb-memory-server* explains how it works.
 - `test/seed/pets.json`: the center's 12 pets, with fixed ids, so the answers match the examples. `test/seed/load-into-mongosh.js` puts them into your own database for `npm start`.
@@ -49,7 +49,7 @@ It prints `pets: 12 documents`, then `true`. Type `exit`, then start the API:
 npm start
 ```
 
-The terminal says `Maple Street's pet API is listening on http://localhost:3100` and keeps running. Open `pets.http` and click **Send Request** above any request; REST Client shows the answer beside it. Until you finish the data layer, most requests answer 500. Stop the server with **Ctrl+C**: it closes the database connection and says so.
+The terminal says `Maple Street's pet API is listening on http://localhost:3100` and keeps running. In Insomnia (the course's lesson *Setup: Insomnia* installs it), click **Import** in your `MongoDB in Depth` project, choose `pets.insomnia.json`, and send any request; its description says what to expect. Until you finish the data layer, most requests answer 500. Stop the server with **Ctrl+C**: it closes the database connection and says so.
 
 `npm run dev` starts it with `node --watch`, so it restarts each time you save a file.
 
